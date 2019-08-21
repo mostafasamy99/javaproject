@@ -1,0 +1,300 @@
+
+*
+{
+    transition: all 1s;
+}
+
+
+
+
+body
+{
+  font-family: 'Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+
+}
+
+
+
+#home
+{
+    height: 100vh;
+    
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conent h2
+{
+   font-style: italic;
+    
+    font-size: 40px;
+}
+.conent h1
+{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.navbar-brand
+{
+    font-style: italic;
+}
+
+nav a
+{
+    color: white!important;
+}
+nav a:hover{
+    color: #fed136 !important;
+}
+
+nav ul li
+{
+    padding: 10px;
+}
+
+.item
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.caption2
+{
+    background-color: rgba(0, 33, 71, 0.7);
+    position: absolute;
+    bottom: 110%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+    
+}
+.caption1
+{
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    width: 90%;
+}
+
+.item:hover .caption2
+{
+    bottom: 5%;
+}
+
+.item:hover .caption1
+{
+    top: 100%;
+}
+
+@media (max-width:600px)
+{
+    .bg-transparent
+    {
+        background-color: red !important;
+    }
+}
+
+#Categories
+{
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif
+}
+
+#Categories h2
+{
+    color: #002147
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.itemcategory
+{
+    background-image: url(../images/work.jpg);
+    background-size: 100% 100%;
+    background-position: center center;     
+}
+.itemcategoryContent
+{
+    background-color: #09c;
+  
+}
+
+.itemcategory:hover .itemcategoryContent
+{
+    background-color: rgba(0,0,200,0.5);
+}
+
+
+/*----------------------- */
+#threads
+{
+    background-color: #f8f9fa
+}
+
+
+.itemThread1
+{
+    position: relative;
+    cursor: pointer;
+}
+
+.itemThread1-overlay{
+    
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#threads .itemThread1:hover .itemThread1-overlay
+{
+    opacity: 1;
+    background-color:rgba(249, 189, 68, 0.8) !important;
+}
+
+@media (min-width: 576px)
+{
+    .test
+    {
+        width: 75% !important;
+    }
+
+
+}
+
+
+
+
+
+
+.word:after
+{
+    content: "Designer";
+    animation-name: x;
+    animation-duration: 3s;
+    
+    animation-iteration-count: infinite
+    
+    
+}
+
+@keyframes x
+{
+    0%{content: "Designer"}
+    4%{content: "Designe"}
+    8%{content: "Design"}
+    12%{content: "Desig"}
+    16%{content: "Desi"}
+    20%{content: "Des"}
+    24%{content: "De"}
+    28%{content: "D"}
+    32%{content: "De"}
+     36%{content: "Dev"}
+     40%{content: "Deve"}
+     44%{content: "Devel"}
+    
+     100%{content: "Developer"}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact
+{
+    height: 400px;
+    background-image: url(../images/map-image.png);
+    
+    background-color: black
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
